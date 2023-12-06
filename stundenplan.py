@@ -53,7 +53,7 @@ def open_pdf_in_window(pdf_filename):
 
     # Neues Fenster für PDF erstellen
     pdf_window = Toplevel()
-    pdf_window.title('PDF Viewer')
+    pdf_window.title('Stundenplan')
 
     # Canvas für Bilder erstellen
     canvas = Canvas(pdf_window, width=images[0].width, height=images[0].height)
